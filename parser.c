@@ -5,11 +5,7 @@
  *      Author: amirlande
  */
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <malloc.h>
 #include "game.h"
-#include "parser.h"
 
 /* gets a tokenized command and calls relevant function
  * uses atoi(tokens[i]) to convert strings to ints

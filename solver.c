@@ -5,11 +5,8 @@
  *      Author: amirlande
  */
 
-#include <stdio.h>
-#include <malloc.h>
 #include <stdlib.h>
 #include "game.h"
-#include "solver.h"
 
 
 /* userBoard is a 9x9 matrix (sudoku board), row and col are pointers to ints

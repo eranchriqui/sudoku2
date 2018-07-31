@@ -1,20 +1,11 @@
 #include <stdio.h>
-#include <malloc.h>
-#include <stdlib.h>
-#include <assert.h>
-#include "time.h"
 #include "parser.h"
-#include "solver.h"
-#include "game.h"
-#include "SPBufferset.h"
 
 
 int main(int argc, char *argv[]) {
 
     int seed;
     gameParams *game;
-    SP_BUFF_SET();
-
 
     seed = 5;
     if (atoi(argv[argc - 1]) != 0) {
@@ -34,8 +25,6 @@ int main(int argc, char *argv[]) {
     }
 
     while (getCommandFromUser(game)) {}
-
-
 
 
     return 0;
