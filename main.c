@@ -6,8 +6,6 @@ int main(int argc, char *argv[]) {
 
     int seed;
     gameParams *game;
-    SP_BUFF_SET();
-
     seed = 5;
     if (atoi(argv[argc - 1]) != 0) {
         seed = atoi(argv[argc - 1]);
