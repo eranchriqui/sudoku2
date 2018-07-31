@@ -1,5 +1,6 @@
 
 
+#include <stdio.h>
 #include "parser.h"
 
 /* Initializes the game */

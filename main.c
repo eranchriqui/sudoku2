@@ -6,7 +6,6 @@ int main(int argc, char *argv[]) {
 
     int seed;
     gameParams *game;
-
     seed = 5;
     if (atoi(argv[argc - 1]) != 0) {
         seed = atoi(argv[argc - 1]);
@@ -25,7 +24,6 @@ int main(int argc, char *argv[]) {
     }
 
     while (getCommandFromUser(game)) {}
-
 
     return 0;
 }
